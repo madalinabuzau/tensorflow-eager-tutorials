@@ -1,9 +1,9 @@
-## Simple tutorials on deep learning, aimed for beginners, using the imperative mode of TensorFlow
+## Simple tutorials on deep learning using the imperative mode of TensorFlow
 
-This repo aims to help people who would like to start getting hands-on experience with deep learning using the TensorFlow Eager mode. TensorFlow Eager mode lets you build neural networks as easy as you would do with Numpy, with the huge advantage that it provides automatic differentiation (no more handwritten backprop. YAAAY!) and also it can ran on GPUs making the neural networks training significantly faster.
+This repo aims to help people who would like to start getting hands-on experience with deep learning using the TensorFlow Eager mode. TensorFlow Eager mode lets you build neural networks as easy as you would do with Numpy, with the huge advantage that it provides automatic differentiation (no more handwritten backprop. YAAAY!). It can ran also on GPUs making the neural networks training significantly faster.
 I will try to make the tutorials accessible for everyone, thus I will try to work on problems that do not require a GPU to work on.
 
-**TensorFlow Version - 1.5**
+**TensorFlow Version used in the tutorials - 1.5**
 
 **Here is the list of tutorials available**:
 * Build a simple neural network with TensorFlow Eager
@@ -18,4 +18,4 @@ Requests for tutorials:
 
 Improvement advice:
 ----
-* Please let me know if you have any suggestions to improve this tutorials. The aim is to help you getting a good grasp of this framework but I am also looking to improve my programming skills so any feedback will be really appreciated :)! 
+* Please let me know if you have any suggestions to improve these tutorials. The aim is to help you getting a good grasp of this framework but I am also looking to improve my programming skills so any feedback will be really appreciated :)! 
