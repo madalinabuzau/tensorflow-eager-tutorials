@@ -7,7 +7,7 @@ I will try to make the tutorials accessible for everyone, thus I will try to wor
 
 **Here is the list of tutorials available**:
 * _Build a simple neural network with TensorFlow Eager_ - this tutorial shows how to build a one-hidden layer neural network using the eager mode of TensorFlow, on a synthetically generated dataset. 
-<img src="tutorials_graphics/01_tutorial_picture.png" style="max-width:50%"/>
+<img src="tutorials_graphics/01_tutorial_picture.png" width="50%"/>
 
 **To do:**
 * Metrics for monitoring the performance of your neural network using TensorFlow Eager
