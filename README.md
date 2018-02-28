@@ -6,10 +6,8 @@ I will try to make the tutorials accessible for everyone, thus I will try to wor
 **TensorFlow Version used in the tutorials - 1.5**
 
 **Here is the list of tutorials available**:
-* _Build a simple neural network with TensorFlow Eager_
-
-This tutorial shows how to build a one-hidden layer neural network using the eager mode of TensorFlow, on a synthetically generated dataset. 
-<img src="01_tutorial_picture.png" style="width: 50%"/>
+* _Build a simple neural network with TensorFlow Eager_ - this tutorial shows how to build a one-hidden layer neural network using the eager mode of TensorFlow, on a synthetically generated dataset. 
+<img src="tutorials_graphics/01_tutorial_picture.png" style="max-width:50%"/>
 
 **To do:**
 * Metrics for monitoring the performance of your neural network using TensorFlow Eager
