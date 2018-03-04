@@ -1,4 +1,4 @@
-## Simple tutorials on deep learning using the imperative mode of TensorFlow
+## Simple tutorials on deep learning using TensorFlow Eager
 
 This repo aims to help people who would like to start getting hands-on experience with deep learning using the TensorFlow Eager mode. TensorFlow Eager mode lets you build neural networks as easy as you would do with Numpy, with the huge advantage that it provides automatic differentiation (no more handwritten backprop. YAAAY!). It can ran also on GPUs making the neural networks training significantly faster.
 I will try to make the tutorials accessible for everyone, thus I will try to work on problems that do not require a GPU to work on.
@@ -6,12 +6,28 @@ I will try to make the tutorials accessible for everyone, thus I will try to wor
 **TensorFlow Version used in the tutorials - 1.5**
 
 **Here is the list of tutorials available**:
-* _Build a simple neural network with TensorFlow Eager_ - this tutorial shows how to build a one-hidden layer neural network using the eager mode of TensorFlow, on a synthetically generated dataset. 
+* **Build a simple neural network with TensorFlow Eager** - This tutorial shows how to build a one-hidden layer neural network using the eager mode of TensorFlow, on a synthetically generated dataset.
 <img src="tutorials_graphics/01_tutorial_picture.png" width="50%"/>
 
+* **Using metrics in Eager mode** - This tutorial shows you how to use metrics
+that are compatible with Eager mode for three types of machine learning problems. For version 1.5, the tf.metrics module is not compatible when using the Eager mode. Thus, I have created my own functions to compute the majority of the metrics described below, in TensorFlow Eager. Quite a fun exercise :)!
+
+ * **Multi-classification** - Explains how to assess the performance of your neural
+ network using the **accuracy**, **confusion matrix**, **precision score** and the **recall score**.
+
+    <img src="tutorials_graphics/02_multiclassification.png" width="50%"/><img src="tutorials_graphics/02_accuracy.png" width="50%"/>
+
+ * **Imbalanced binary classification** - This part shows you how to compute the
+ area under the Receiver Operating Characteristic curve (ROC-AUC score) and also
+ how to plot the ROC curve.
+    <img src="tutorials_graphics/02_imbalanced_dataset.png" width="50%" left-margin="40px"/><img src="tutorials_graphics/02_imbalanced_roc_auc.png" width="50%" left-margin="40px"/>
+
+ * **Regression** - This part of the notebook shows how to compute the coefficient of determination (R2 score).
+
+    <img src="tutorials_graphics/02_regression.png" width="50%" left-margin="40px"/><img src="tutorials_graphics/02_r2_score.png" width="50%" left-margin="40px"/>
+
 **To do:**
-* Metrics for monitoring the performance of your neural network using TensorFlow Eager
-* Using Tensorboard and TensorFlow Eager to visualize the training of your neural network 
+* Using Tensorboard and TensorFlow Eager to visualize the training of your neural network
 
 Requests for tutorials:
 ----
@@ -19,4 +35,4 @@ Requests for tutorials:
 
 Improvement advice:
 ----
-* Please let me know if you have any suggestions to improve these tutorials. The aim is to help you getting a good grasp of this framework but I am also looking to improve my programming skills so any feedback will be really appreciated :)! 
+* Please let me know if you have any suggestions to improve these tutorials. The aim is to help you getting a good grasp of this framework but I am also looking to improve my programming skills so any feedback will be really appreciated :)!
