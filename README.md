@@ -12,8 +12,7 @@ I will try to make the tutorials accessible for everyone, thus I will try to wor
 
 * **Using metrics in Eager mode** - This tutorial shows you how to use metrics
 that are compatible with Eager mode for three types of machine learning problems. For version 1.5, the tf.metrics module is not compatible when using the Eager mode. Thus, I have created my own functions to compute the majority of the metrics described below, in TensorFlow Eager. Quite a fun exercise :)!
-    * **Multi-classification** - Explains how to assess the performance of your neural network using the **accuracy**, **confusion matrix**, **precision score** and the **recall score**.
-    <img src="tutorials_graphics/02_multiclassification.png" width="50%"/><img src="tutorials_graphics/02_accuracy.png" width="50%"/>
+    * **Multi-classification** - Explains how to assess the performance of your neural network using the **accuracy**, **confusion matrix**, **precision score** and the **recall score**.<img src="tutorials_graphics/02_multiclassification.png" width="50%"/><img src="tutorials_graphics/02_accuracy.png" width="50%"/>
     * **Imbalanced binary classification** - This part shows you how to compute the
      area under the Receiver Operating Characteristic curve (ROC-AUC score) and also
      how to plot the ROC curve.
