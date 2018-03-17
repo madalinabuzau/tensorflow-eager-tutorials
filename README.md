@@ -9,25 +9,22 @@ I will try to make the tutorials accessible for everyone, thus I will try to wor
 * **Build a simple neural network with TensorFlow Eager** - This tutorial shows how to build a one-hidden layer neural network using the eager mode of TensorFlow, on a synthetically generated dataset.
 <img src="tutorials_graphics/01_tutorial_picture.png" width="50%"/>
 
+
 * **Using metrics in Eager mode** - This tutorial shows you how to use metrics
 that are compatible with Eager mode for three types of machine learning problems. For version 1.5, the tf.metrics module is not compatible when using the Eager mode. Thus, I have created my own functions to compute the majority of the metrics described below, in TensorFlow Eager. Quite a fun exercise :)!
-
- * **Multi-classification** - Explains how to assess the performance of your neural
- network using the **accuracy**, **confusion matrix**, **precision score** and the **recall score**.
-
+    * **Multi-classification** - Explains how to assess the performance of your neural network using the **accuracy**, **confusion matrix**, **precision score** and the **recall score**.
     <img src="tutorials_graphics/02_multiclassification.png" width="50%"/><img src="tutorials_graphics/02_accuracy.png" width="50%"/>
+    * **Imbalanced binary classification** - This part shows you how to compute the
+     area under the Receiver Operating Characteristic curve (ROC-AUC score) and also
+     how to plot the ROC curve.
+     <img src="tutorials_graphics/02_imbalanced_dataset.png" width="50%"/><img src="tutorials_graphics/02_imbalanced_roc_auc.png" width="50%"/>
+    * **Regression** - This part of the notebook shows how to compute the coefficient of determination.<img src='tutorials_graphics/02_regression.png' width='50%'/><img src='tutorials_graphics/02_r2_score.png' width='50%'/>
 
- * **Imbalanced binary classification** - This part shows you how to compute the
- area under the Receiver Operating Characteristic curve (ROC-AUC score) and also
- how to plot the ROC curve.
-    <img src="tutorials_graphics/02_imbalanced_dataset.png" width="50%" left-margin="40px"/><img src="tutorials_graphics/02_imbalanced_roc_auc.png" width="50%" left-margin="40px"/>
 
- * **Regression** - This part of the notebook shows how to compute the coefficient of determination (R2 score).
+* **Building a Convolutional Neural Network (CNN) for emotion recognition with TensorFlow Eager** - This tutorial shows you how to build a CNN from scratch using the TensorFlow Eager API and the FER2013 dataset. At the end of the tutorial you will be able to test the network on yourself using a webcam. Very fun exercise!
 
-    <img src="tutorials_graphics/02_regression.png" width="50%" left-margin="40px"/><img src="tutorials_graphics/02_r2_score.png" width="50%" left-margin="40px"/>
+  <img src="tutorials_graphics/test_1.png" width="45%"/><img src="tutorials_graphics/test_2.png" width="45%"/>
 
-**To do:**
-* Using Tensorboard and TensorFlow Eager to visualize the training of your neural network
 
 Requests for tutorials:
 ----
