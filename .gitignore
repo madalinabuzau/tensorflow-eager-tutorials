@@ -108,4 +108,5 @@ venv.bak/
 .ipynb_checkpoints
 
 # ignore data folder
-data/
+datasets/*
+!datasets/get_datasets.sh
