@@ -109,4 +109,8 @@ venv.bak/
 
 # ignore data folder
 datasets/*
-!datasets/get_datasets.sh
+!datasets/get_imdb_dataset.sh
+!datasets/aclImdb/length_reviews.pkl
+!datasets/aclImdb/word2idx.pkl
+!datasets/aclImdb/train.tfrecords
+!datasets/aclImdb/test.tfrecords
