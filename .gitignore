@@ -114,3 +114,4 @@ datasets/*
 !datasets/aclImdb/word2idx.pkl
 !datasets/aclImdb/train.tfrecords
 !datasets/aclImdb/test.tfrecords
+!models_checkpoints/ImdbRNN
