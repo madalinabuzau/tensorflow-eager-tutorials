@@ -3,7 +3,7 @@
 This repo aims to help people who would like to start getting hands-on experience with deep learning using the TensorFlow Eager mode. TensorFlow Eager mode lets you build neural networks as easy as you would do with Numpy, with the huge advantage that it provides automatic differentiation (no more handwritten backprop. YAAAY!). It can ran also on GPUs making the neural networks training significantly faster.
 I will try to make the tutorials accessible for everyone, thus I will try to work on problems that do not require a GPU to work on.
 
-**TensorFlow Version used in the tutorials - 1.5**
+**TensorFlow Version used in the tutorials - 1.7**
 
 **Here is the list of tutorials available**:
 * **Build a simple neural network with TensorFlow Eager** - This tutorial shows how to build a one-hidden layer neural network using the eager mode of TensorFlow, on a synthetically generated dataset.
@@ -17,7 +17,7 @@ that are compatible with Eager mode for three types of machine learning problems
 
 * **Building a Convolutional Neural Network (CNN) for emotion recognition with TensorFlow Eager** - This tutorial shows you how to build a CNN from scratch using the TensorFlow Eager API and the FER2013 dataset. At the end of the tutorial you will be able to test the network on yourself using a webcam. Very fun exercise!
 
-  <img src="tutorials_graphics/test_1.png" width="40%"/>
+  <img src="tutorials_graphics/03_flowchart.png" width="100%"/>
 
 
 Requests for tutorials:
