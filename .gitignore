@@ -109,6 +109,7 @@ venv.bak/
 
 # ignore data folder
 datasets/*
+!datasets/load_forecasting/*
 !datasets/get_imdb_dataset.sh
 !datasets/aclImdb/length_reviews.pkl
 !datasets/aclImdb/word2idx.pkl
