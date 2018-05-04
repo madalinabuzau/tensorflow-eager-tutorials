@@ -1,19 +1,29 @@
 ## Simple tutorials on deep learning using TensorFlow Eager
 
 This repo aims to help people who would like to start getting hands-on experience with deep learning using the TensorFlow Eager mode. TensorFlow Eager mode lets you build neural networks as easy as you would do with Numpy, with the huge advantage that it provides automatic differentiation (no more handwritten backprop. YAAAY!). It can ran also on GPUs making the neural networks training significantly faster.
+
 I will try to make the tutorials accessible for everyone, thus I will try to work on problems that do not require a GPU to work on.
 
 **TensorFlow Version used in the tutorials - 1.7**
 
-**Here is the list of tutorials available**:
-* **Build a simple neural network with TensorFlow Eager** - This tutorial shows how to build a one-hidden layer neural network using the eager mode of TensorFlow, on a synthetically generated dataset.
+### List of tutorials available:
+#### Getting started
+---
+* **01. Build a simple neural network** - This tutorial shows you how to build and train a one-hidden layer neural network using the Eager mode of TensorFlow, on a synthetically generated dataset.
 
-* **Using metrics in Eager mode** - This tutorial shows you how to use metrics
-that are compatible with Eager mode for three types of machine learning problems. For version 1.7, the tf.metrics module is not compatible when using the Eager mode. Thus, I have created my own functions to compute the majority of the metrics described below, in TensorFlow Eager. Quite a fun exercise :)!
+* **02. Using metrics in Eager mode** - This tutorial shows you how to use metrics
+that are compatible with Eager mode, for three types of machine learning problems (multi-classification, imbalanced dataset and regression).
 
-* **Building a Convolutional Neural Network (CNN) for emotion recognition with TensorFlow Eager** - This tutorial shows you how to build an CNN from scratch using the TensorFlow Eager API and the FER2013 dataset. At the end of the tutorial you will be able to test the network on yourself using a webcam. Very fun exercise!
+#### Convolutional neural networks
+----
+* **03. Build a CNN for emotion recognition** - This tutorial shows you how to build a CNN from scratch using the TensorFlow Eager API and the FER2013 dataset. At the end of the tutorial you will be able to test the network on yourself using a webcam. Very fun exercise!
 
-* **Building a Recurrent Neural Network (CNN) for sequence classification with TensorFlow Eager** - This tutorial shows you how to build an RNN from scratch using the TensorFlow Eager API and the Stanford Large Movie Review Dataset.
+#### Recurrent neural networks
+----
+* **04. Build a dynamic RNN for sequence classification** - Learn how to work with variable sequence input data. This tutorial shows you how to build a dynamic RNN using the TensorFlow Eager API and the Stanford Large Movie Review Dataset.
+* **05. Build a RNN for time series regression** - Learn how to build a RNN for timeseries forecasting. 
+
+
 
 Requests for tutorials:
 ----
