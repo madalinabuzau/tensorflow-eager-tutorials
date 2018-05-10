@@ -15,6 +15,7 @@ I will try to make the tutorials accessible for everyone, thus I will try to wor
 * **02. Using metrics in Eager mode** - This tutorial shows you how to use metrics
 that are compatible with Eager mode, for three types of machine learning problems (multi-classification, imbalanced dataset and regression).
 <img src="tutorials_graphics/02_flowchart.png" style="display:block; margin-left: auto; margin-right: auto; width: 80%;"/>
+
 #### Convolutional neural networks
 ----
 * **03. Build a CNN for emotion recognition** - This tutorial shows you how to build a CNN from scratch using the TensorFlow Eager API and the FER2013 dataset. At the end of the tutorial you will be able to test the network on yourself using a webcam. Very fun exercise!
@@ -24,6 +25,7 @@ that are compatible with Eager mode, for three types of machine learning problem
 ----
 * **04. Build a dynamic RNN for sequence classification** - Learn how to work with variable sequence input data. This tutorial shows you how to build a dynamic RNN using the TensorFlow Eager API and the Stanford Large Movie Review Dataset.
 <img src="tutorials_graphics/04_flowchart.png" style="display:block; margin-left: auto; margin-right: auto; width: 80%;"/>
+
 * **05. Build a RNN for time series regression** - Learn how to build a RNN for timeseries forecasting.
 <img src="tutorials_graphics/05_flowchart.png" style="display:block; margin-left: auto; margin-right: auto; width: 80%;"/>
 
