@@ -112,6 +112,7 @@ datasets/*
 !datasets/get_imdb_dataset.sh
 !datasets/load_forecasting
 !datasets/dummy_text
+!datasets/dummy_images
 !datasets/aclImdb
 datasets/aclImdb/*
 !datasets/aclImdb/length_reviews.pkl
